@@ -33,12 +33,14 @@ alias q="exit"
 
 alias vim="nvim"
 alias v="nvim"
+alias vv="t && poetry shell && v"
 
 alias bi="brew install"
 alias br="brew remove"
 
 alias t="tmux"
 alias ss="sudo launchctl"
+alias rr="make run"
 
 # Enable Alt+Tab keybinding to select from previous commands
 # bindkey '^[^I' autosuggest-accept
