@@ -33,7 +33,6 @@ alias q="exit"
 
 alias vim="nvim"
 alias v="nvim"
-alias vv="t && poetry shell && v"
 
 alias bi="brew install"
 alias br="brew remove"
@@ -41,6 +40,9 @@ alias br="brew remove"
 alias t="tmux"
 alias ss="sudo launchctl"
 alias rr="make run"
+alias glog="git log --oneline --decorate --graph"
+
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
 # Enable Alt+Tab keybinding to select from previous commands
 # bindkey '^[^I' autosuggest-accept
